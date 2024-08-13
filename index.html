@@ -3,7 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Member Club</title>
+    <link rel="icon" type="image/x-icon" href="./assets/Logo.png" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="search-id">
+        <img data-type="logo" src="./assets/Logo.png" />
+        <form method="get">
+          <h1></h1>
+          <h2></h2>
+          <input type="text" placeholder="ID do cartão" class="inputId" />
+          <button type="submit" class="buttonSubmit" disabled>
+            <img src="./assets/ArrowElbowDownLeft.svg" />
+          </button>
+        </form>
+      </div>
+      <div class="container">
+        <div class="profile">
+          <div class="profile-image">
+            <img />
+            <div></div>
+          </div>
+          <div class="profile-details">
+            <h1></h1>
+            <p></p>
+          </div>
+        </div>
+        <div class="history">
+          <div class="history-top">
+            <h1>Histórico</h1>
+            <p>0 cortes</p>
+            <div></div>
+          </div>
+          <div class="history-bottom">
+            <ul class="history-list"></ul>
+          </div>
+        </div>
+        <div class="loyalty-card">
+          <div class="loyalty-top">
+            <div class="loyalty-top-left">
+              <h1>Cartão Fidelidade</h1>
+              <p>Ao fazer cortes de cabelo, o décimo sai de graça!</p>
+            </div>
+            <div class="loyalty-top-right">
+              <h1>ID: 123-456-789-123</h1>
+            </div>
+          </div>
+          <div class="loyalty-bottom">
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/PinCheck.png" data-content="unchecked" />
+            </div>
+            <div class="loyalty-item">
+              <img src="./assets/Gift-Solid.svg" data-content="unchecked" />
+            </div>
+          </div>
+        </div>
+        <div class="progress">
+          <div class="progress-left">
+            <div class="countRemainingCuts">
+              <h1>0</h1>
+              <span>cortes restantes</span>
+            </div>
+            <div class="progress-bar">
+              <div class="gradient-bar" data-content="0 de 10">
+                <div></div>
+              </div>
+            </div>
+          </div>
+          <div class="progress-right">
+            <img src="assets/PinGift.png" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
